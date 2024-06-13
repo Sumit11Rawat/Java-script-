@@ -49,9 +49,10 @@ console.log(obj_4);
 // output->{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
 // similar output is produced by obj_5={...obj_1, ...obj_2};
 
+// destructuring an object
 const construct = {
   name: "sumit",
   age: 22,
 };
-const { age } = constructor;
+const { age } = construct;
 console.log(age);
